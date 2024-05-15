@@ -1,0 +1,295 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: linear-gradient(rgba(4, 9, 30, 0.7));
+    background-image: url('/eduford_img/BG1.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/* ------------------------------------------------Navsection-------------------------------------------------------- */
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 150px;
+}
+.navlinks {
+    flex: 1;
+    text-align: right;
+}
+.navlinks ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px, 20px;
+    margin-right: 30px;
+    position: relative;
+}
+.navlinks ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: arial;
+}
+.navlinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #3fa34d;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navlinks ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    color: #fff;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+
+}
+.text-box p {
+        margin: 10px 0 40ox;
+        font-size: 18px;
+        color: #777;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+}
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.hero-btn:hover{
+    border: 1px solid #3fa34d;
+    background-color: #3fa34d;
+    transition: 0.5s;
+    
+}
+
+/* ------------------------------------------------Service Section-------------------------------------------------------- */
+
+.service{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+.row{
+    margin-top: 3%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.row2{
+    margin-top: 1%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.service-col {
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: transform 0.6s ease;
+}
+.service-col:hover {
+    background-image: url(/eduford_img/sports.jpeg);
+
+    font-style: bold;
+    transform: scale(1.1);
+}
+.sportstxt:hover{
+    color: white;
+}
+.sportstxt{
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    
+}
+
+
+.service-col1 {
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: transform 0.6s ease;
+}
+.service-col1:hover {
+    background-image: url(/eduford_img/library.png);
+
+    font-style: bold;
+    transform: scale(1.1);
+   
+}
+.studiestxt:hover{
+    color: white;
+}
+.studiestxt{
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+.service-col2 {
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: transform 0.6s ease;
+}
+.service-col2:hover {
+    background-image: url(/eduford_img/tech2.jpeg);
+
+    font-style: bold;
+    transform: scale(1.1);
+}
+.tecttxt:hover{
+    color: white;
+}
+.tecttxt{
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+.service-col3 {
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: transform 0.6s ease;
+}
+.service-col3:hover {
+    background-image: url(/eduford_img/refreshment.webp);
+
+    font-style: bold;
+    transform: scale(1.1);
+}
+.reftxt:hover{
+    color: white;
+}
+.reftxt{
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+.service-col4 {
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: transform 0.6s ease;
+}
+.service-col4:hover {
+    background-image: url(/eduford_img/entertainment2.jpeg);
+
+    font-style: bold;
+    transform: scale(1.1);
+}
+.enttxt:hover{
+    color: white;
+}
+.enttxt{
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+.service-col5 {
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: transform 0.6s ease;
+}
+.service-col5:hover {
+    background-image: url(/eduford_img/medical.jpeg);
+    font-style: bold;
+    transform: scale(1.1);
+    
+}
+.medtxt:hover{
+    color: white;
+}
+.medtxt{
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+/* ------------------------------------------------Dropdwon Section-------------------------------------------------------- */
+
+
+
+
+

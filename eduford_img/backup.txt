@@ -1,0 +1,120 @@
+/* .row{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col {
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.row1{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col1 {
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col1:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    background-image: url(/eduford_img/library.png);
+    color: #fff;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Sports</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A suscipit laborum 
+                    officiis commodi mollitia consequuntur, eius eos atque aliquam id asperiores 
+                    vitae quos nobis impedit. Accusamus ex aperiam blanditiis accusantium?
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Studies</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A suscipit laborum 
+                    officiis commodi mollitia consequuntur, eius eos atque aliquam id asperiores 
+                    vitae quos nobis impedit. Accusamus ex aperiam blanditiis accusantium?
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Technologies</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A suscipit laborum 
+                    officiis commodi mollitia consequuntur, eius eos atque aliquam id asperiores 
+                    vitae quos nobis impedit. Accusamus ex aperiam blanditiis accusantium?
+                </p>
+            </div>
+        </div>
+        <div class="row1">
+            <div class="course-col1">
+                <h3>Refreshments</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A suscipit laborum 
+                    officiis commodi mollitia consequuntur, eius eos atque aliquam id asperiores 
+                    vitae quos nobis impedit. Accusamus ex aperiam blanditiis accusantium?
+                </p>
+            </div>
+            <div class="course-col1">
+                <h3>Entertainment</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A suscipit laborum 
+                    officiis commodi mollitia consequuntur, eius eos atque aliquam id asperiores 
+                    vitae quos nobis impedit. Accusamus ex aperiam blanditiis accusantium?
+                </p>
+            </div>
+            <div class="course-col1">
+                <h3>Medical Support</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A suscipit laborum 
+                    officiis commodi mollitia consequuntur, eius eos atque aliquam id asperiores 
+                    vitae quos nobis impedit. Accusamus ex aperiam blanditiis accusantium?
+                </p>
+            </div>
+        </div>
+        
+        --------------------------------------------------------
