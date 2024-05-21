@@ -116,6 +116,10 @@ h1{
     display: inline-flex;
     justify-content: space-evenly;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .service-col {
     flex-basis: 31%;
@@ -134,7 +138,7 @@ h1{
     transform: scale(1.1);
 }
 .sportstxt:hover{
-    color: white;
+    color: black;
 }
 .sportstxt{
     font-size: 14px;
@@ -164,7 +168,7 @@ h1{
    
 }
 .studiestxt:hover{
-    color: white;
+    color: black;
 }
 .studiestxt{
     font-size: 14px;
@@ -192,7 +196,7 @@ h1{
     transform: scale(1.1);
 }
 .tecttxt:hover{
-    color: white;
+    color: black;
 }
 .tecttxt{
     font-size: 14px;
@@ -220,7 +224,7 @@ h1{
     transform: scale(1.1);
 }
 .reftxt:hover{
-    color: white;
+    color: black;
 }
 .reftxt{
     font-size: 14px;
@@ -248,7 +252,7 @@ h1{
     transform: scale(1.1);
 }
 .enttxt:hover{
-    color: white;
+    color: black;
 }
 .enttxt{
     font-size: 14px;
@@ -276,7 +280,7 @@ h1{
     
 }
 .medtxt:hover{
-    color: white;
+    color: black;
 }
 .medtxt{
     font-size: 14px;
