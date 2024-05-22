@@ -7,12 +7,9 @@ body, h2, p, button {
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background: #f0f0f0;
     color: #333;
-    overflow-y: auto; /* Ensure scrollability if content overflows */
+    overflow-y: auto; /
 }
 
 .container {
@@ -28,7 +25,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
-    height: 350px; /* Adjusted height */
+    height: 350px; 
     transition: transform 0.3s, box-shadow 0.3s;
     display: flex;
     flex-direction: column;
@@ -48,15 +45,75 @@ body {
 }
 
 .image-area {
-    height: 140px; /* Adjusted height for image area */
+    height: 140px; 
     background: #ccc;
     margin-bottom: 20px;
     border-radius: 10px;
-    /* Uncomment and add your image code here
-    background: url('path_to_your_image.jpg') no-repeat center center;
-    background-size: cover;
-    */
 }
+
+/* -------------------------------------------------------------------------------------- */
+
+.gym-image {
+    /* Add gym image here */
+    background: url('/eduford_img/Gym.jpg.crdownload') no-repeat center center;
+    background-size: cover;
+}
+
+.swimming-image {
+    /* Add swimming image here */
+    background: url('/eduford_img/Swimming.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.football-image {
+    /* Add football image here */
+    background: url('/eduford_img/Footbal.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.tennis-image {
+    /* Add football image here */
+    background: url('/eduford_img/tennis2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.basketball-image {
+    /* Add football image here */
+    background: url('/eduford_img/basketball.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.valleyball-image {
+    /* Add football image here */
+    background: url('/eduford_img/valleyball.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.batminton-image {
+    /* Add football image here */
+    background: url('/eduford_img/batminton.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.skating-image {
+    /* Add football image here */
+    background: url('/eduford_img/skating.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.wallclimb-image {
+    /* Add football image here */
+    background: url('/eduford_img/wallclimb.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.yoga-image {
+    /* Add football image here */
+    background: url('/eduford_img/yoga.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
 
 h2 {
     margin-bottom: 10px;
@@ -72,7 +129,7 @@ p {
 
 .buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     padding: 10px; /* Reduced padding */
 }
 
@@ -97,3 +154,4 @@ p {
 .btn:active {
     transform: scale(0.95);
 }
+
