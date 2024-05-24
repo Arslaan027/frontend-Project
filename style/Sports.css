@@ -1,0 +1,107 @@
+/* Reset some default styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, h2, p, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    background: #f0f0f0;
+    color: #333;
+    overflow-y: auto;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.box {
+    background: linear-gradient(145deg, #e0e0e0, #c0c0c0);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 380px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; /* Ensure content does not overflow */
+    margin: 10px; /* Add margin to create space between boxes */
+    flex-grow: 0; /* Prevent boxes from growing */
+}   
+
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+}
+
+.image-area {
+    min-height: 150px; /* Set a minimum height */
+    margin: 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* No need to specify background images here */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #555;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.buttons {
+    display: flex;
+    justify-content: right;
+    padding: 10px; /* Reduced padding */
+}
+
+.btn {
+    background: #0af;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: #fff;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    white-space: nowrap; /* Ensure single line height */
+}
+
+.btn:hover {
+    background: #08d;
+    transform: scale(1.1);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}

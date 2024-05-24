@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<div class="content">
+        <div class="image-area healthclinic-image">
+            <!-- Health Clinic image here -->
+        </div>
+        <h2>Health Clinic</h2>
+        <p>Access comprehensive healthcare at our health clinic.</p>
+    </div>
+    <div class="buttons">
+        <button id="directions-btn" class="btn">Directions</button>
+        <button class="btn">Details</button>
+    </div>
+    
+    <script>
+    document.getElementById('directions-btn').addEventListener('click', function() {
+        // Health clinic coordinates
+        const clinicLatitude = 27.884854; // Destination latitude
+        const clinicLongitude = 78.0765601; // Destination longitude
+        
+        // Check if the Geolocation API is supported
+        if ("geolocation" in navigator) {
+            // Get the user's current position
+            navigator.geolocation.getCurrentPosition(function(position) {
+                // User's current coordinates
+                const latitude = position.coords.latitude;
+                const longitude = position.coords.longitude;
+                
+                // Construct the Google Maps URL with the obtained coordinates and the destination coordinates
+                const mapsUrl = `https://www.google.com/maps/dir/?api=1&origin=${latitude},${longitude}&destination=${clinicLatitude},${clinicLongitude}`;
+                
+                // Open the Google Maps URL in a new tab
+                window.open(mapsUrl, '_blank');
+            }, function(error) {
+                // Handle errors, if any
+                console.error('Error getting user location:', error);
+                alert('Unable to retrieve your location.');
+            });
+        } else {
+            // Geolocation is not supported
+            alert('Geolocation is not supported by your browser.');
+        }
+    });
+    </script>
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

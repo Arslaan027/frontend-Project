@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    /* background-image: url(/eduford_img/BG1.jpg); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: lightgreen;
+}
+.container{
+    display: flex;
+}
+.cards{
+    height: 400px;
+    width: 300px;
+    margin: 75px;
+    border-radius: 4%;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+img{
+    height: 400px;
+    width: 300px;
+    border-radius: 3px;
+    transition: .5s;
+}
+.intro{
+    height: 70px;
+    width: 300px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 147px;
+    background: transparent;
+    color: #807f75;
+    transition: .5s;
+}
+h1{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.cards:hover{
+    cursor: pointer;
+}
+.cards:hover .intro{
+    height: 150px;
+    bottom: 147px;
+    background: black;
+}
+
+.cards:hover img {
+    transform: scale(1.1);
+}
+.cards ul {
+    font-size: 15px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+.cards:hover ul {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 20px;
+}

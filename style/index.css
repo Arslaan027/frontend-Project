@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../eduford_img/BG1.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.navlinks {
+    flex: 1;
+    text-align: right;
+}
+
+.navlinks ul {
+    list-style: none;
+}
+
+.navlinks ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.navlinks ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navlinks ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #3fa34d;
+    display: block;
+    margin: auto;
+    transition: width 0.5s;
+}
+
+.navlinks ul li:hover::after {
+    width: 100%;
+}
+
+.text-box {
+    color: #fff;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: #777;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.5s, border 0.5s;
+}
+
+.hero-btn:hover {
+    border-color: #3fa34d;
+    background-color: #3fa34d;
+}
+
+/* Service Section */
+.service {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.service h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.service p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.service-col {
+    flex: 0 1 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    transition: transform 0.6s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-col:hover {
+    transform: scale(1.05);
+}
+
+.service-col h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service-col p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* General Links */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer */
+footer {
+    background:white;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+    margin-top: 0px;
+}
+
+footer p {
+    margin: 0;
+}
