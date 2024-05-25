@@ -2,7 +2,10 @@
 
 include("config.php");
 
-$result = mysqli_query($mysqli, "SELECT * from facilities");
+// Retrieve the 'sno' parameter from the URL
+$sno = $_GET['sno'];
+
+$result = mysqli_query($mysqli, "SELECT * FROM facilities WHERE sno = $sno");
 ?>
 
 <!DOCTYPE html>
@@ -33,7 +36,7 @@ $result = mysqli_query($mysqli, "SELECT * from facilities");
         </div>
         
     </div> -->
-
+x   
     <div class="container">
         <?php
         while ($row = mysqli_fetch_array($result)) {
