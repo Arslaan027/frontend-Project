@@ -2,10 +2,9 @@
 
 include("config.php");
 
-// Retrieve the 'sno' parameter from the URL
 $sno = $_GET['sno'];
 
-$result = mysqli_query($mysqli, "SELECT * FROM facilities WHERE sno = $sno");
+$result = mysqli_query($mysqli, "SELECT * FROM facilities");
 ?>
 
 <!DOCTYPE html>
@@ -19,23 +18,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM facilities WHERE sno = $sno");
 </head>
 
 <body>
-    <!-- <div class="container">
-       
-        <div class="box">
-            <div class="content">
-                <div class="image-area workshop-image">
-                    
-                </div>
-                <h2>Workshop</h2>
-                <p>Engage projects in our dynamic collaborative workshops.</p>
-            </div>
-            <div class="buttons">
-                <button class="btn">Directions</button>
-                <button class="btn">Details</button>
-            </div>
-        </div>
-        
-    </div> -->
+
 x   
     <div class="container">
         <?php
@@ -47,8 +30,8 @@ x
             echo "<p>" . $row['description'] . "</p>";
             echo "</div>";
             echo "<div class='buttons'>";
-            echo "<button class='btn'>Directions</button>";
-            echo "<button class='btn'>Details</button>";
+                // echo "<button class='btn'>Directions</button>";
+                // echo "<button class='btn'>Details</button>";
             echo "</div>";
             echo "</div>";
         }

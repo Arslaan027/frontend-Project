@@ -13,7 +13,7 @@ body{
     background-position: center;
     background-size: cover;
     position: relative;
-    background-color: lightgreen;
+    background-color: rgb(27, 58, 27);
 }
 .container{
     display: flex;
@@ -21,7 +21,7 @@ body{
 .cards{
     height: 400px;
     width: 300px;
-    margin: 75px;
+    margin: 40px;
     border-radius: 4%;
     box-shadow: 5px 5px 20px black;
     overflow: hidden;

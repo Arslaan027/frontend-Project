@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technology</title>
-    <link rel="stylesheet" href="style/technology.css">
+    <link rel="stylesheet" href="technology.css">
 </head>
 <body>
     <div class="container">
@@ -24,7 +24,7 @@
         <div class="box">
             <div class="content">
                 <div class="image-area Smart-image">
-                    <!-- Smart classroom image here -->
+
                 </div>
                 <h2>Smart classes</h2>
                 <p>Experience interactive learning in our smart classrooms.</p>
@@ -37,7 +37,7 @@
         <div class="box">
             <div class="content">
                 <div class="image-area online-image">
-                    <!-- Online learning programme image here -->
+
                 </div>
                 <h2>Online Learning</h2>
                 <p>Access a variety of online learning programmes for all students.</p>
@@ -50,7 +50,7 @@
         <div class="box">
             <div class="content">
                 <div class="image-area printing-image">
-                    <!-- Printing services image here -->
+
                 </div>
                 <h2>Printing Services</h2>
                 <p>Utilize our printing services available throughout the campus.</p>

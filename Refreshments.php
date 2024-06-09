@@ -25,7 +25,7 @@
         <div class="box">
             <div class="content">
                 <div class="image-area coffee-image">
-                    <!-- Coffee shop image here -->
+
                 </div>
                 <h2>Coffee Shop</h2>
                 <p>Relax with a cup of coffee in our cozy coffee shop.</p>
@@ -38,7 +38,7 @@
         <div class="box">
             <div class="content">
                 <div class="image-area dininghall-image">
-                    <!-- Dining Hall image here -->
+
                 </div>
                 <h2>Dining Hall</h2>
                 <p>Enjoy nutritious meals in our comfortable dining hall.</p>
@@ -51,7 +51,7 @@
         <div class="box">
             <div class="content">
                 <div class="image-area foodstall-image">
-                    <!-- Food Stall image here -->
+
                 </div>
                 <h2>Food Stall</h2>
                 <p>Grab a quick bite from our convenient food stalls.</p>
@@ -65,7 +65,7 @@
         <div class="box">
             <div class="content">
                 <div class="image-area juicecorner-image">
-                    <!-- Juice Corner image here -->
+
                 </div>
                 <h2>Juice Corner</h2>
                 <p>Refresh yourself with fresh juices at our juice corner.</p>
@@ -78,7 +78,7 @@
         <div class="box">
             <div class="content">
                 <div class="image-area snackbar-image">
-                    <!-- Snack Bar image here -->
+
                 </div>
                 <h2>Snack Bar</h2>
                 <p>Enjoy light snacks and beverages at our snack bar.</p>
@@ -91,7 +91,7 @@
         <div class="box">
             <div class="content">
                 <div class="image-area waterfountain-image">
-                    <!-- Water Fountain image here -->
+
                 </div>
                 <h2>Water Fountain</h2>
                 <p>Stay hydrated with clean water from our water fountains.</p>

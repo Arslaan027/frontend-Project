@@ -1,7 +1,7 @@
 <?php
 include("config.php");
 
-$result = mysqli_query($mysqli, "SELECT * from facilities");
+$result = mysqli_query($mysqli, "SELECT * from facilities where sno=1");
 ?>
 
 <!DOCTYPE html>
