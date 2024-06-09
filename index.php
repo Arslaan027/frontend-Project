@@ -40,7 +40,7 @@ $result = mysqli_query($mysqli, "SELECT * from catagory");
 
         </div>
     </section>
-
+    <hr>
 
     <section class="service">
         <h1>Student Services</h1>
